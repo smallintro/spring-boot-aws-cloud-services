@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    function:
+      definition: cloudMsgFunction
+      # definition: cloudMsgSupplier
+      # definition: cloudMsgConsumer
+
+      scan:
+        packages: com.infointent.awslambda.function
